@@ -17,9 +17,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing github action'
-        run: pwd
+      - name: 'print folder contents'
+        run: ls
 
-      - name: 'testing printing'
-        run: echo nesma
+     
   
